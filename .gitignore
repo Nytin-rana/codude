@@ -1,0 +1,27 @@
+.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.sample_env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Application-generated projects and local registry
+/generated_project/
+/projects/*/generated_project/
+/projects/registry.json
+
+# Local logs
+*.log
